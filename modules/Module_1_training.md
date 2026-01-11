@@ -1,4 +1,5 @@
 ## Модуль 1. Операционная основа работы PM
+
 <stable>
 Главная задача модуля — выровнять терминологию и снять неоднозначность в ключевых понятиях управления проектами.
 
@@ -14,18 +15,19 @@ Tuckman, Dreyfus, CMMI, Cynefin, Scrum, Kanban, Waterfall, гибридные п
 
 ---
 **Инструменты и подходы (Учебные материалы):**
-* [The Scrum Guide (2020 Version)] — https://scrumguides.org/scrum-guide.html (Tier 1; покрывает: Scrum)
-* [The Kanban Guide] — https://kanban.university/kanban-guide/ (Tier 1; покрывает: Kanban)
-* [A Leader’s Framework for Decision Making (Snowden & Boone)] — https://hbr.org/2007/11/a-leaders-framework-for-decision-making (Tier 1; покрывает: Cynefin)
-* [Developmental Sequence in Small Groups (Bruce Tuckman)] — https://psycnet.apa.org/record/1966-02056-001 (Tier 3; покрывает: Tuckman)
-* [The Dreyfus Model of Skill Acquisition] — https://www.researchgate.net/publication/235357388_The_Dreyfus_model_of_skill_acquisition (Tier 3; покрывает: Dreyfus)
-* [CMMI V2.0: Performance Solutions] — https://www.isaca.org/enterprise/cmmi-performance-solutions (Tier 1; покрывает: CMMI)
-* [Understanding Hybrid Project Management] — https://www.pmi.org/learning/library/hybrid-project-management-11993 (Tier 2; покрывает: Hybrid Methodologies, Waterfall)
-* [Project Management Methodology Matrix] — https://www.pmi.org/learning/library/choose-your-weapon-select-methodology-7414 (Tier 2; покрывает: матрица выбора методологии)
-* [P3.express: The Manual] — https://p3.express/ (Tier 1; покрывает: P3.express)
-* [RAID Log: How to Track Risks, Assumptions, Issues, Dependencies] — https://www.projectmanager.com/blog/raid-log (Tier 2; покрывает: RAID Analysis)
-* [The Best AI Project Management Tools in 2025 (Catalog)] — https://zapier.com/blog/best-ai-project-management-tools/ (Tier 2; покрывает: ИИ-инструменты для PM)
-* [PMI Talent Triangle] — https://www.pmi.org/certifications/certification-resources/maintain/requirements (Tier 1; покрывает: карта компетенций)
+
+* [Tuckman's stages of group development - EBSCO Research Starters](https://www.ebsco.com/research-starters/social-sciences-and-humanities/tuckmans-stages-group-development) (Tier 1; покрывает: Tuckman — формирование, нормирование, штурм, исполнение + адаптация)
+* [Understanding and Applying the Scrum Framework - Scrum.org](https://www.scrum.org/professional-scrum-competencies/understanding-and-applying-scrum-framework) (Tier 1; покрывает: Scrum — роли, события, артефакты, теория)
+* [The Official Guide to The Kanban Method - Kanban University](https://kanban.university/kanban-guide/) (Tier 1; покрывает: Kanban — принципы, практики, WIP limits)
+* [The 2020 Scrum Guide - Scrum.org](https://goal-engineering.com/wp-content/uploads/2021/06/2020-Scrum-Guide-US.pdf) (Tier 1; покрывает: Scrum Framework official documentation)
+* [Tuckman's Stages of Group Development: Forming, Storming, Norming & Performing - Bitesize Learning](https://www.bitesizelearning.co.uk/resources/tuckman-stages-team-development-forming-norming-storming-performing) (Tier 1; покрывает: применение Tuckman в современном контексте)
+* [Dreyfus Model of Skill Acquisition - Wikipedia](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) (Tier 1; покрывает: Dreyfus — 5 уровней компетентности от новичка к эксперту)
+* [Capability Maturity Model Integration - Wikipedia](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration) (Tier 1; покрывает: CMMI — 5 уровней зрелости процессов)
+* [Cynefin framework - Wikipedia](https://en.wikipedia.org/wiki/Cynefin_framework) (Tier 1; покрывает: Cynefin — 5 доменов сложности и способы управления)
+* [The Cynefin Framework: Defining Its 5 Domains - Whatfix](https://whatfix.com/blog/cynefin-framework/) (Tier 2; покрывает: Cynefin — практическое применение в управлении проектами)
+* [Agile-Waterfall Hybrid: Is It Right for Your Team? - Lucidchart Blog](https://www.lucidchart.com/blog/is-agile-waterfall-hybrid-right-for-your-team) (Tier 2; покрывает: гибридные методологии — когда и как комбинировать подходы)
+* [P3.express — Official Site](https://p3.express/) (Tier 1; покрывает: P3.express — минималистичный фреймворк, официальная документация)
+
 ---
 
 <stable>
@@ -50,15 +52,16 @@ Tuckman, Dreyfus, CMMI, Cynefin, Scrum, Kanban, Waterfall, гибридные п
 
 ---
 **Темы модуля (Учебные материалы):**
-* [PMI Lexicon of Project Management Terms] — https://www.pmi.org/pmbok-guide-standards/lexicon (Tier 1; покрывает: Ключевые термины, Роли и зоны ответственности)
-* [The Cynefin Framework: Contexts Explained] — https://thecynefin.co/about-us/about-cynefin-framework/ (Tier 1; покрывает: Контексты модели Cynefin, Типы проектов)
-* [SAFe 6.0 Framework (Big Picture)] — https://scaledagileframework.com/ (Tier 1; покрывает: SAFe, Scaling Frameworks)
-* [LeSS (Large-Scale Scrum) Rules] — https://less.works/less/rules/index (Tier 1; покрывает: LeSS)
-* [Spotify Engineering Culture (Part 1)] — https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/ (Tier 1; покрывает: Spotify Model. *Note: рассматривается как культурный паттерн, а не жесткий фреймворк*)
-* [Managing the Politics of Projects] — https://www.pmi.org/learning/library/managing-politics-projects-6186 (Tier 2; покрывает: Political Risks)
-* [Shaping the Future of Project Management with AI] — https://www.pmi.org/learning/thought-leadership/ai-impact/shaping-the-future-ai-in-pm (Tier 2; покрывает: Возможности ИИ, Методологии)
-* [NIST AI Risk Management Framework] — https://www.nist.gov/itl/ai-risk-management-framework (Tier 1; покрывает: AI Strategy & Governance)
-* [OPM3 (Organizational Project Management Maturity Model)] — https://www.pmi.org/learning/library/opm3-maturity-model-6884 (Tier 2; покрывает: Модели зрелости, Риски и ограничения выбора)
+
+* [The 5 Stages of Team Development: Tuckman's Model - Institute Project Management](https://instituteprojectmanagement.com/blog/the-5-stages-of-team-development/) (Tier 1; покрывает: роли управления проектами — как команда развивается через стадии)
+* [From Novice to Expert: The Dreyfus Skill Model - Bronchoscopy.org](https://bronchoscopy.org/from-novice-to-expert-the-dreyfus-skill-model/) (Tier 1; покрывает: модели зрелости команд и компетенций)
+* [A Complete Beginner's Guide to Capability Maturity Model Integration - Complyan](https://complyan.com/a-complete-beginners-guide-to-capability-maturity-model-integration-cmmi/) (Tier 1; покрывает: модели зрелости процессов — CMMI уровни и их применение)
+* [SAFe®, A Framework For Scaling Agile In Large Organizations - Waydev](https://waydev.co/scaled-agile-framework/) (Tier 1; покрывает: SAFe — масштабирование для enterprise)
+* [LeSS Framework - Large Scale Scrum - less.works Official](https://less.works/less/framework) (Tier 1; покрывает: LeSS — альтернатива SAFe для масштабирования)
+* [What Is The Spotify Model For Scaling Agile? - Businessmap](https://businessmap.io/blog/spotify-model) (Tier 1; покрывает: Spotify Model — организационная структура, Squads & Tribes)
+* [Top 10 Ways AI is Transforming Project Management in 2026 - Intelegain](https://www.intelegain.com/top-10-ways-ai-is-transforming-project-management-in-2026/) (Tier 2; покрывает: возможности ИИ в управлении проектами — автоматизация, прогнозирование, риски)
+* [Effective Project Stakeholder Management for 2025 - Apps365](https://www.apps365.com/blog/project-stakeholder-management/) (Tier 2; покрывает: управление стейкхолдерами как ключевую тему PM)
+
 ---
 
 <stable>
@@ -75,9 +78,11 @@ Tuckman, Dreyfus, CMMI, Cynefin, Scrum, Kanban, Waterfall, гибридные п
 
 ---
 **Практика и результат (Учебные материалы):**
-* [RAID Log Template (XLS/Google Sheets)] — https://www.tacticalprojectmanager.com/tools/raid-log-template/ (Tier 2; покрывает: Tools: RAID Analysis template, Result: Artifact)
-* [Using RAID to Manage Project Health] — https://www.mindtools.com/pages/article/newPPM_96.htm (Tier 2; покрывает: Диагностика «здоровья» проекта, Context)
-* [PM Competency Assessment Tool] — https://www.pmi.org/learning/careers/competency-assessment (Tier 1; покрывает: самооценка уровня, карта компетенций)
+
+* [RAID: Risks, Assumptions, Issues, and Dependencies - Expert Program Management](https://expertprogrammanagement.com/2010/10/raid-risks-assumptions-issues-and-dependencies/) (Tier 1; покрывает: RAID Analysis — структурирование неопределенности в проектах)
+* [Risks, Assumptions, Issues, and Dependencies in Project (RAID) - LinkedIn](https://www.linkedin.com/pulse/risks-assumptions-issues-dependencies-project-raid-nadir-riyani-ofs4f) (Tier 2; покрывает: практическое применение RAID-логов)
+* [How to Set Up RAID Project Management in Jira: A Complete Guide - Softcomply](https://softcomply.com/raid-project-management-jira/) (Tier 2; покрывает: инструменты и шаблоны для RAID-анализа)
+
 ---
 
 <stable>
@@ -90,7 +95,9 @@ Tuckman, Dreyfus, CMMI, Cynefin, Scrum, Kanban, Waterfall, гибридные п
 
 ---
 **Must have (Учебные материалы):**
-* [Designing the Agile Portfolio (SAFe)] — https://scaledagileframework.com/portfolio/ (Tier 1; покрывает: Enterprise Scaling, Архитектура портфеля)
-* [Office Politics: The Good, The Bad, and The Ugly (HBR)] — https://hbr.org/2018/04/office-politics-the-good-the-bad-and-the-ugly (Tier 2; покрывает: Political Risk Management, C-level influence)
-* [ISO/IEC 42001: Artificial Intelligence Management System] — https://www.iso.org/standard/81230.html (Tier 1; покрывает: AI Policy Creation, Внедрение регламентов)
+
+* [Enterprise Project Portfolio Management (EPPM): Complete Guide - Smartsheet](https://www.smartsheet.com/content/enterprise-project-portfolio-management) (Tier 1; покрывает: Enterprise Scaling — архитектура портфелей и governance)
+* [Tackling Strategic Risk as a C-Level Executive - Adam.ai](https://adam.ai/blog/tackling-strategic-risk-as-a-c-level-executive) (Tier 2; покрывает: Political Risk Management — стратегия на уровне C-suite)
+* [Data protection & AI governance 2025-2026 - DPO Centre](https://www.dpocentre.com/data-protection-ai-governance-2025-2026/) (Tier 2; покрывает: AI Policy Creation — Data Privacy, EU AI Act, Ethics в GenAI)
+
 ---
