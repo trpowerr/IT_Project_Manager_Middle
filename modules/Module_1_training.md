@@ -1,56 +1,3 @@
-Google Search Results:
-
-1. **Best AI Project Management Tools 2025**:
-* Статьи от ClickUp, Monday, Forbes Advisor (Top PM Software 2025), Zapier.
-* *Выбор:* Forbes или Zapier дают объективные списки. Futurepedia — это каталог. Пользователь просил "конкретный каталог". Ссылка на Futurepedia (категория Productivity/PM) будет идеальным решением для "каталога", либо статья-обзор "Top 10". Возьму статью-обзор от авторитетного источника (например, Harvard Business Review или ведущий Tech-портал), либо, учитывая запрос "каталог", ссылку на агрегатор типа "TheresAnAIForThat" или "Futurepedia". Но лучше статья-список. Остановимся на **Zapier: The best AI project management tools in 2025**.
-
-
-2. **NIST AI RMF**:
-* Ссылка: `https://www.nist.gov/itl/ai-risk-management-framework` (Tier 1).
-
-
-3. **Spotify Model**:
-* Ссылка: `https://engineering.atspotify.com/2014/03/spotify-engineering-culture-part-1/` (Tier 1).
-
-
-4. **P3.express**:
-* Ссылка: `https://p3.express/` (Tier 1).
-
-
-5. **SAFe 6.0**:
-* Ссылка: `https://scaledagileframework.com/` (Tier 1).
-
-
-6. **LeSS**:
-* Ссылка: `https://less.works/` (Tier 1).
-
-
-7. **Tuckman**:
-* "Developmental Sequence in Small Groups" (1965). Ссылка на PDF через Google Scholar или APA.
-
-
-8. **Dreyfus**:
-* "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition".
-
-
-9. **RAID**:
-* PMI или ProjectManager.com.
-
-
-
----
-
-Принято. Я учел ваши предпочтения:
-
-1. Для **AI Tools** добавлена ссылка на актуальный обзор-каталог инструментов 2025 года.
-2. Для **Spotify Model** использован оригинальный источник с пометкой о культурном контексте.
-3. Обеспечено **100% покрытие** всех терминов из блоков `<stable>`.
-
-Ниже представлен готовый файл `Module 1.md`.
-
----
-
-```markdown
 ## Модуль 1. Операционная основа работы PM
 <stable>
 Главная задача модуля — выровнять терминологию и снять неоднозначность в ключевых понятиях управления проектами.
@@ -147,5 +94,3 @@ Tuckman, Dreyfus, CMMI, Cynefin, Scrum, Kanban, Waterfall, гибридные п
 * [Office Politics: The Good, The Bad, and The Ugly (HBR)] — https://hbr.org/2018/04/office-politics-the-good-the-bad-and-the-ugly (Tier 2; покрывает: Political Risk Management, C-level influence)
 * [ISO/IEC 42001: Artificial Intelligence Management System] — https://www.iso.org/standard/81230.html (Tier 1; покрывает: AI Policy Creation, Внедрение регламентов)
 ---
-
-```
