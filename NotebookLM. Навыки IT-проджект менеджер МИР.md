@@ -86,3 +86,11 @@ Senior Project Manager
 Прямое взаимодействие с C-suite, менторство будущих лидеров, управление ожиданиями ключевых стейкхолдеров.
 
 Аналогия: Если Middle-менеджер — это опытный дирижер отдельного оркестра, обеспечивающий идеальное звучание каждой ноты в рамках заданного произведения, то Senior-менеджер — это художественный руководитель всей филармонии, который не только следит за качеством музыки, но и определяет репертуар, управляет доходами и внедряет цифровые технологии, чтобы сделать классическое искусство доступным и прибыльным в современную эпоху.
+
+Источники:
+Forrester Wave Collaborative Work Management Tools Q2 2025
+Gartner Magic Quadrant for Adaptive Project Management & Reporting 2025
+Gartner Magic Quadrant for Collaborative Work Management 2025
+McKinsey State of AI 2025 Agents, Innovation, and Transformation
+McKinsey Technology Trends Outlook 2025
+Pulse_of_the_Profession_2025

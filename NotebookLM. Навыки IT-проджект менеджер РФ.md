@@ -97,3 +97,25 @@ AI-аналитика: применение предиктивной анали�
 Управление AI-агентами: проектирование рабочих процессов с участием автономных AI-агентов как полноценных членов команды (Senior).
 
 Справочник составлен на основе анализа трендов IT-рынка России и СНГ 2025 года, требований ведущих работодателей (СБЕР, Яндекс, Ozon и др.) и экспертных прогнозов на 2026 год.
+
+Ссылки на источники:
+- [Хабр: статья #917116](https://habr.com/ru/articles/917116/)
+- [Хабр: Sportmaster Lab, статья #926478](https://habr.com/ru/companies/sportmaster_lab/articles/926478/)
+- [РБК: Эксперты «Газпром Инвест» поделились компетенциями в управлении проектами](https://companies.rbc.ru/news/wuKLfb5pMe/ekspertyi-gazprom-invest-podelilis-kompetentsiyami-v-upravlenii-proektami/)
+- [Kaiten: тренды проектного управления в 2025](https://kaiten.ru/blog/trendy-proektnogo-upravleniya-v-2025/)
+- [Хабр: статья #957912](https://habr.com/ru/articles/957912/)
+- [Хабр: статья #895832](https://habr.com/ru/articles/895832/)
+- [РБК: Лидер нового поколения — какие компетенции определяют успех в 2025 году](https://companies.rbc.ru/news/5JUZlXRVdX/lider-novogo-pokoleniya-i-kakie-kompetentsii-opredelyayut-uspeh-v-2025-godu/)
+- [РБК Trends: социальная статья #692407b89a79474a2becf1a8](https://trends.rbc.ru/trends/social/cmrm/692407b89a79474a2becf1a8)
+- [Setka: пост 0197ff0e-f831-45bf-b27a-14043ff7060d](https://setka.ru/posts/0197ff0e-f831-45bf-b27a-14043ff7060d)
+- [Хабр: Kaiten, статья #914354](https://habr.com/ru/companies/kaiten/articles/914354/)
+- [Хабр: Usetech, статья #980110](https://habr.com/ru/companies/usetech/articles/980110/)
+- [IBS: навыки IT‑специалистов в 2026 году](https://ibs.ru/media/kakie-navyki-budut-vostrebovany-u-it-spetsialistov-v-2026-godu-prognozy-trendy-vliyanie-ii/)
+- [IT Expert Work: технические навыки для IT‑менеджера в 2026](https://itexpert.work/ru/tehnicheskie-navyki-dlya-it-menedzhera-v-2026/)
+- [VC.ru: навыки для IT‑специалистов в 2026 году](https://vc.ru/hr/2660839-navyki-dlya-it-specialistov-v-2026-godu)
+- [Контур: hard и soft skills — какие навыки востребованы](https://kontur.ru/career/blog/82260-hard_i_soft_skills_kakie_navyki_vostrebovany)
+- [Top Academy: ключевые навыки для работы в IT в 2026](https://msk.top-academy.ru/articles/klyuchevyye-navyki-dlya-raboty-v-it-v-2026-godu)
+- [GoIT Global: soft skills для проджект‑менеджера](https://goit.global/ua-ru/articles/soft-skills-dlia-prodzhekt-menedzhera/)
+- [Финуслуги: карьерные навыки к 2026 году](https://finuslugi.ru/navigator/kak-ehto-rabotaet/stat_kakie_karernye_navyki_nuzhno_uspet_prokachat_k_2026_godu_)
+- [SmartsNG: состояние IT‑рынка труда 2025 (Россия и СНГ)](https://smartsng.dev/news/state-of-the-it-job-market-2025-russia-and-cis)
+- [YouTube: видео (aixkQo_HKvQ)](https://www.youtube.com/watch?v=aixkQo_HKvQ)
