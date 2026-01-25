@@ -1,106 +1,192 @@
-## Модуль 1. Операционная основа работы PM
+# Модуль 1. Операционная основа работы PM
 
-<stable>
-Главная задача модуля — выровнять терминологию и снять неоднозначность в ключевых понятиях управления проектами.
+### 1. Роли управления проектами и зоны ответственности
 
-**Инструменты и подходы:**
-Tuckman, Dreyfus, CMMI, Cynefin, Scrum, Kanban, Waterfall, гибридные подходы, матрица выбора методологии, карта компетенций, ИИ-инструменты для PM.
+#### Инструмент: Tuckman (Модель развития группы)
+* **[Doc] [Developmental Sequence in Small Groups](https://www.researchgate.net/publication/240531011_40_years_of_storming_A_historical_review_of_Tuckman's_model_of_small_group_development)**
+    * **О чем:** Оригинальное исследование Брюса Такмана. 
+    * **Senior-профит:** Позволяет Senior-менеджеру глубоко понимать психологическую динамику команд и осознанно управлять конфликтами на стадии Storming, не допуская деградации процессов.
+* **[Analysis] [Modern Evolution & Limitations of Tuckman](https://www.mindtools.com/ab0vkv8/forming-storming-norming-and-performing)**
+    * **О чем:** Разбор того, как модель адаптируется под Agile и распределенные команды.
+    * **Senior-профит:** Подсвечивает ограничения модели, помогая Senior-у гибко менять стиль лидерства в условиях нелинейного развития IT-команд.
+* **[Case] [Team Dynamics in Practice (PMO)](https://uwaterloo.ca/vpaf-project-management-office/methodologies/project-management/planning/raid-log)**
+    * **О чем:** Практика работы с динамикой команд в крупных организационных структурах.
+    * **Senior-профит:** Демонстрирует, как синхронизировать развитие команды с операционной эффективностью на уровне всего проектного офиса.
 
-**Инструменты и подходы (Расширенный):**
-
-* **Hybrid Methodologies (Гибридные методологии):** Глубокое владение комбинаторикой Waterfall + Scrum/Kanban для настройки процессов под специфику проекта.
-* **P3.express:** Минималистичный фреймворк управления, фокусирующийся на цикличности и простоте, как альтернатива тяжеловесным методологиям.
-* **RAID Analysis (RAID-анализ):** Структурирование неопределенности через категории Risks (Риски), Assumptions (Допущения), Issues (Проблемы), Dependencies (Зависимости).
-</stable>
-
----
-**Инструменты и подходы (Учебные материалы):**
-
-* [Tuckman's stages of group development - EBSCO Research Starters](https://www.ebsco.com/research-starters/social-sciences-and-humanities/tuckmans-stages-group-development) (Tier 1; покрывает: Tuckman — формирование, нормирование, штурм, исполнение + адаптация)
-* [Understanding and Applying the Scrum Framework - Scrum.org](https://www.scrum.org/professional-scrum-competencies/understanding-and-applying-scrum-framework) (Tier 1; покрывает: Scrum — роли, события, артефакты, теория)
-* [The Official Guide to The Kanban Method - Kanban University](https://kanban.university/kanban-guide/) (Tier 1; покрывает: Kanban — принципы, практики, WIP limits)
-* [The 2020 Scrum Guide - Scrum.org](https://goal-engineering.com/wp-content/uploads/2021/06/2020-Scrum-Guide-US.pdf) (Tier 1; покрывает: Scrum Framework official documentation)
-* [Tuckman's Stages of Group Development: Forming, Storming, Norming & Performing - Bitesize Learning](https://www.bitesizelearning.co.uk/resources/tuckman-stages-team-development-forming-norming-storming-performing) (Tier 1; покрывает: применение Tuckman в современном контексте)
-* [Dreyfus Model of Skill Acquisition - Wikipedia](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition) (Tier 1; покрывает: Dreyfus — 5 уровней компетентности от новичка к эксперту)
-* [Capability Maturity Model Integration - Wikipedia](https://en.wikipedia.org/wiki/Capability_Maturity_Model_Integration) (Tier 1; покрывает: CMMI — 5 уровней зрелости процессов)
-* [Cynefin framework - Wikipedia](https://en.wikipedia.org/wiki/Cynefin_framework) (Tier 1; покрывает: Cynefin — 5 доменов сложности и способы управления)
-* [The Cynefin Framework: Defining Its 5 Domains - Whatfix](https://whatfix.com/blog/cynefin-framework/) (Tier 2; покрывает: Cynefin — практическое применение в управлении проектами)
-* [Agile-Waterfall Hybrid: Is It Right for Your Team? - Lucidchart Blog](https://www.lucidchart.com/blog/is-agile-waterfall-hybrid-right-for-your-team) (Tier 2; покрывает: гибридные методологии — когда и как комбинировать подходы)
-* [P3.express — Official Site](https://p3.express/) (Tier 1; покрывает: P3.express — минималистичный фреймворк, официальная документация)
+#### Инструмент: Dreyfus (Модель приобретения навыков)
+* **[Doc] [A Five-Stage Model of Skill Acquisition](https://apps.dtic.mil/sti/citations/ADA084551)**
+    * **О чем:** Фундаментальный отчет братьев Дрейфус.
+    * **Senior-профит:** Дает инструмент для объективной оценки грейдов и проектирования адекватных программ развития для Middle-специалистов.
+* **[Analysis] [The Dreyfus Model of Clinical Problem-Solving](https://pmc.ncbi.nlm.nih.gov/articles/PMC2887319/)**
+    * **О чем:** Исследование перехода от следования правилам к интуитивному мастерству.
+    * **Senior-профит:** Помогает понять, как развивать Senior-менеджеров, способных принимать решения в условиях неопределенности, когда стандартные инструкции не работают.
+* **[Case] [Using Dreyfus for Professional Expertise](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)**
+    * **О чем:** Примеры применения модели в корпоративном обучении и грейдировании.
+    * **Senior-профит:** Практическая база для создания прозрачной системы оценки компетенций внутри департамента.
 
 ---
 
-<stable>
+### 2. Модели зрелости команд и процессов
 
-**Темы модуля:**
-
-* Роли управления проектами и зоны ответственности
-* Модели зрелости команд и процессов
-* Риски и ограничения выбора методологии
-* Ключевые термины управления проектами
-* Контексты модели Cynefin
-* Возможности ИИ в управлении проектами
-* Типы проектов
-* Методологии управления проектами
-* Воркшоп 1: роли в проекте и приоритеты PM
-
-**Темы модуля (Расширенный):**
-
-* **Scaling Frameworks (Фреймворки масштабирования):** Сравнительный анализ SAFe, LeSS и Spotify Model для адаптации под бизнес-структуру.
-* **Organizational Political Risks (Политические риски):** Идентификация и управление рисками на уровне стейкхолдеров и организации.
-* **AI Strategy & Governance (Стратегия ИИ):** Разработка политик безопасного использования AI (Data Privacy, Ethics) в процессах управления.
-</stable>
-
----
-**Темы модуля (Учебные материалы):**
-
-* [The 5 Stages of Team Development: Tuckman's Model - Institute Project Management](https://instituteprojectmanagement.com/blog/the-5-stages-of-team-development/) (Tier 1; покрывает: роли управления проектами — как команда развивается через стадии)
-* [From Novice to Expert: The Dreyfus Skill Model - Bronchoscopy.org](https://bronchoscopy.org/from-novice-to-expert-the-dreyfus-skill-model/) (Tier 1; покрывает: модели зрелости команд и компетенций)
-* [A Complete Beginner's Guide to Capability Maturity Model Integration - Complyan](https://complyan.com/a-complete-beginners-guide-to-capability-maturity-model-integration-cmmi/) (Tier 1; покрывает: модели зрелости процессов — CMMI уровни и их применение)
-* [SAFe®, A Framework For Scaling Agile In Large Organizations - Waydev](https://waydev.co/scaled-agile-framework/) (Tier 1; покрывает: SAFe — масштабирование для enterprise)
-* [LeSS Framework - Large Scale Scrum - less.works Official](https://less.works/less/framework) (Tier 1; покрывает: LeSS — альтернатива SAFe для масштабирования)
-* [What Is The Spotify Model For Scaling Agile? - Businessmap](https://businessmap.io/blog/spotify-model) (Tier 1; покрывает: Spotify Model — организационная структура, Squads & Tribes)
-* [Top 10 Ways AI is Transforming Project Management in 2026 - Intelegain](https://www.intelegain.com/top-10-ways-ai-is-transforming-project-management-in-2026/) (Tier 2; покрывает: возможности ИИ в управлении проектами — автоматизация, прогнозирование, риски)
-* [Effective Project Stakeholder Management for 2025 - Apps365](https://www.apps365.com/blog/project-stakeholder-management/) (Tier 2; покрывает: управление стейкхолдерами как ключевую тему PM)
+#### Инструмент: CMMI (v3.0)
+* **[Doc] [CMMI V3.0 Content Release Official](https://cmmiinstitute.com/products/cmmi/content-release)**
+    * **О чем:** Спецификации последней версии стандарта зрелости (2024-2025).
+    * **Senior-профит:** Необходимый базис для проектирования масштабируемых и предсказуемых процессов в Enterprise-компаниях.
+* **[Analysis] [Unlocking the Power of CMMI Version 3.0](https://www.theoris.com/unlocking-the-power-of-cmmi-version-3-0-a-framework-for-organizational-performance/)**
+    * **О чем:** Разбор отличий v3.0 и интеграции с современными данными.
+    * **Senior-профит:** Помогает объединить процессную строгость с гибкостью Agile, обеспечивая соответствие аудит-требованиям без потери скорости.
+* **[Case] [CMMI Performance Success Spotlights](https://cmmiinstitute.com/en-us/resources/resourcesajaxsearch?types=case%20study)**
+    * **О чем:** Сборник реальных кейсов улучшения бизнес-показателей.
+    * **Senior-профит:** Предоставляет Senior-менеджеру доказательную базу для C-level о возврате инвестиций (ROI) при внедрении методологий.
 
 ---
 
-<stable>
+### 3. Риски и ограничения выбора методологии
 
-**Практика и результат:**
-Разобраться, как распределяются роли и зоны ответственности в проекте, разложить задачи по ролям и увидеть спорные зоны. Осознать, какие роли сильнее проявлены лично, и обсудить это с другими. В мини-группах проанализировать проект через модель Cynefin и сформулировать управленческие приоритеты PM. Закрепить изученное через тестирование по терминологии, заполнение карты компетенций и самооценку текущего уровня и зон развития.
-
-**Практика и результат (Расширенный):**
-
-* **Task (Individual):** Диагностика «здоровья» проекта через RAID-лог.
-* **Context:** Вы работаете с проектом, где требования часто меняются, а стейкхолдеры конфликтуют.
-* **Tools:** RAID Analysis template.
-* **Result (Artifact):** Структурированный реестр из 4-х категорий (Риски, Допущения, Проблемы, Зависимости), выявляющий «серые зоны» проекта.
-</stable>
-
----
-**Практика и результат (Учебные материалы):**
-
-* [RAID: Risks, Assumptions, Issues, and Dependencies - Expert Program Management](https://expertprogrammanagement.com/2010/10/raid-risks-assumptions-issues-and-dependencies/) (Tier 1; покрывает: RAID Analysis — структурирование неопределенности в проектах)
-* [Risks, Assumptions, Issues, and Dependencies in Project (RAID) - LinkedIn](https://www.linkedin.com/pulse/risks-assumptions-issues-dependencies-project-raid-nadir-riyani-ofs4f) (Tier 2; покрывает: практическое применение RAID-логов)
-* [How to Set Up RAID Project Management in Jira: A Complete Guide - Softcomply](https://softcomply.com/raid-project-management-jira/) (Tier 2; покрывает: инструменты и шаблоны для RAID-анализа)
+#### Инструмент: Матрица выбора методологии
+* **[Doc] [Multi-dimensional Framework for Project Selection](https://www.pmi.org/learning/library/consistent-approach-provides-high-performance-9889)**
+    * **О чем:** Стандарт PMI по многомерной оценке подходов к проектам.
+    * **Senior-профит:** Инструмент для защиты выбранной методологии (Agile, Waterfall или Гибрид) перед стейкхолдерами на основе объективных критериев.
+* **[Analysis] [11 Project Selection Methods for 2025](https://www.techademy.com/project-selection-methods)**
+    * **О чем:** Сравнительный обзор методов отбора проектов в портфель.
+    * **Senior-профит:** Помогает Senior-у учитывать не только технические риски, но и стратегическое выравнивание проекта с целями бизнеса.
+* **[Case] [Case Study on Consistent Method Selection](https://www.pmi.org/learning/library/consistent-approach-provides-high-performance-9889)**
+    * **О чем:** Разбор влияния единого подхода к выбору методологии на успех компании.
+    * **Senior-профит:** Показывает, как стандартизация процесса выбора снижает операционные риски на уровне всей организации.
 
 ---
 
-<stable>
-	
-**Must have:**
+### 4. Ключевые термины управления проектами
 
-* `[Senior-bonus]` **Enterprise Scaling:** Проектирование архитектуры управления портфелем с использованием SAFe или LeSS.
-* `[Senior-bonus]` **Political Risk Management:** Стратегическое управление междепартаментскими конфликтами и влиянием на уровне C-level.
-* `[Senior-bonus]` **AI Policy Creation:** Внедрение регламентов Data Privacy и этики при использовании GenAI в компании.
-</stable>
-
----
-**Must have (Учебные материалы):**
-
-* [Enterprise Project Portfolio Management (EPPM): Complete Guide - Smartsheet](https://www.smartsheet.com/content/enterprise-project-portfolio-management) (Tier 1; покрывает: Enterprise Scaling — архитектура портфелей и governance)
-* [Tackling Strategic Risk as a C-Level Executive - Adam.ai](https://adam.ai/blog/tackling-strategic-risk-as-a-c-level-executive) (Tier 2; покрывает: Political Risk Management — стратегия на уровне C-suite)
-* [Data protection & AI governance 2025-2026 - DPO Centre](https://www.dpocentre.com/data-protection-ai-governance-2025-2026/) (Tier 2; покрывает: AI Policy Creation — Data Privacy, EU AI Act, Ethics в GenAI)
+#### Инструмент: Карта компетенций PM
+* **[Doc] [PMCD Framework 3rd Edition (PMI)](https://www.fai.gov/content/project-manager-competency-development-framework-third-edition)**
+    * **О чем:** Официальный глобальный стандарт развития компетенций менеджера.
+    * **Senior-профит:** Основа для формирования единого понятийного аппарата и планов развития (IDP) для себя и команды.
+* **[Analysis] [Top Project Management Trends for 2026](https://pmicie.org/articles/114-top-project-management-trends-for-2025)**
+    * **О чем:** Прогноз развития отрасли и изменения ключевой терминологии.
+    * **Senior-профит:** Позволяет Senior-менеджеру оставаться на острие трендов (AI, ESG, Resilience) и использовать актуальный "язык бизнеса".
+* **[Case] [Competency Matrix in Hybrid Teams](https://www.mdpi.com/2076-3387/15/9/332)**
+    * **О чем:** Практический пример построения матрицы навыков в сложных структурах.
+    * **Senior-профит:** Показывает, как превратить абстрактные термины компетенций в конкретные KPI для оценки работы менеджеров.
 
 ---
+
+### 5. Контексты модели Cynefin
+
+#### Инструмент: Cynefin Framework (Модель принятия решений)
+* **[Doc] [A Leader’s Framework for Decision Making (HBR)](https://hbr.org/2007/11/a-leaders-framework-for-decision-making)**
+    * **О чем:** Классическая статья Дэйва Сноудена в Harvard Business Review.
+    * **Senior-профит:** Обучает лидера классифицировать ситуации по уровням сложности и подбирать адекватный тип управленческой реакции (Sense-Analyze-Respond и др.).
+* **[Analysis] [Managing Complexity in Crisis (EU JRC Guide)](https://publications.jrc.ec.europa.eu/repository/bitstream/JRC123629/kjna30569enn.pdf)**
+    * **О чем:** Глубокое руководство по навигации в запутанных и хаотичных системах.
+    * **Senior-профит:** Критически важный навык для антикризисного управления и принятия стратегических решений в условиях высокой неопределенности.
+* **[Case] [Cynefin in Public Policy](https://publications.jrc.ec.europa.eu/repository/handle/JRC123629)**
+    * **О чем:** Примеры использования модели в масштабных государственных и социальных инициативах.
+    * **Senior-профит:** Позволяет увидеть потенциал фреймворка для решения проблем с огромным количеством стейкхолдеров за пределами IT.
+
+---
+
+### 6. Возможности ИИ в управлении проектами
+
+#### Инструмент: ИИ-инструменты для PM
+* **[Doc] [AI in Project Management: PMI Research](https://www.pmi.org/learning/thought-leadership/ai-in-project-management)**
+    * **О чем:** Фундаментальное исследование будущего профессии в эпоху ИИ.
+    * **Senior-профит:** Помогает Senior-менеджеру выстроить долгосрочную стратегию автоматизации проектного офиса.
+* **[Analysis] [How GenAI is Changing Project Management (Forbes)](https://www.forbes.com/sites/bernardmarr/2023/07/24/the-future-of-project-management-how-ai-is-changing-the-game/)**
+    * **О чем:** Обзор влияния больших языковых моделей на операционку.
+    * **Senior-профит:** Позволяет определить приоритетные зоны для внедрения ИИ-ассистентов с целью высвобождения времени команды на творческие задачи.
+* **[Case] [AI Automation in Agile Teams (Atlassian)](https://www.atlassian.com/blog/ai/artificial-intelligence-project-management)**
+    * **О чем:** Практика внедрения ИИ для автоматизации follow-up, отчетов и приоритизации.
+    * **Senior-профит:** Дает готовые кейсы экономии ресурсов, которые можно масштабировать на весь департамент.
+
+---
+
+### 7. Типы проектов
+
+#### Инструмент: RAID Analysis
+* **[Doc] [The RAID Log: Standard for Uncertainty (PMI)](https://www.pmi.org/learning/library/raid-logs-project-uncertainty-6063)**
+    * **О чем:** Определение международного стандарта ведения RAID-логов.
+    * **Senior-профит:** Унифицирует подход к управлению рисками и зависимостями для любых типов проектов (инфраструктурных, продуктовых, R&D).
+* **[Analysis] [Mastering the RAID Log for Complex Projects](https://www.projectmanager.com/blog/raid-log)**
+    * **О чем:** Глубокий анализ взаимосвязи между рисками, допущениями и проблемами.
+    * **Senior-профит:** Учит Senior-менеджера видеть системные зависимости, которые могут "повалить" проект при смене его типа или масштаба.
+* **[Case] [RAID Implementation in Large-Scale Infrastructure](https://uwaterloo.ca/vpaf-project-management-office/methodologies/project-management/planning/raid-log)**
+    * **О чем:** Практика использования RAID как основного инструмента коммуникации в критически важных проектах.
+    * **Senior-профит:** Показывает, как жесткий контроль рисков обеспечивает выживаемость проекта в агрессивной среде.
+
+---
+
+### 8. Методологии управления проектами
+
+#### Инструмент: Scrum, Kanban, Waterfall
+* **[Doc] [The Official Scrum Guide (2020)](https://scrumguides.org/scrum-guide.html)**
+    * **О чем:** Единственный официальный стандарт Scrum.
+    * **Senior-профит:** Senior должен знать его идеально, чтобы пресекать "карго-культы" и выстраивать реально работающие Agile-процессы.
+* **[Analysis] [Hybrid PM Trends & AI Integration 2025](https://fessgroup.co.uk/insight/2024-hybrid-project-management-trends-ai/)**
+    * **О чем:** Почему чистые методологии уступают место гибким гибридам.
+    * **Senior-профит:** Дает аргументацию для гибкой настройки процессов под задачи конкретного бизнеса, а не слепого следования книгам.
+* **[Case] [P3.express: Practical Minimalist Implementation](https://p3.express/)**
+    * **О чем:** Кейс использования легкого фреймворка как альтернативы тяжелым PRINCE2/PMBOK.
+    * **Senior-профит:** Демонстрирует, как оптимизировать "стоимость управления" в средних проектах без потери контроля.
+
+---
+
+### 9. Воркшоп 1: роли в проекте и приоритеты PM
+
+#### Инструмент: Карта компетенций (Практика применения)
+* **[Doc] [Competency Assessment Guide (FAI)](https://www.fai.gov/content/project-manager-competency-development-framework-third-edition)**
+    * **О чем:** Руководство по проведению оценки компетенций и выявлению "серых зон".
+    * **Senior-профит:** Методическая база для проведения воркшопа, позволяющая Senior-у структурировать обсуждение ролей.
+* **[Analysis] [Role Conflicts in Agile Teams](https://www.atlassian.com/agile/scrum/roles)**
+    * **О чем:** Разбор типичных конфликтов зон ответственности (PO vs Scrum Master vs PM).
+    * **Senior-профит:** Помогает Senior-у модерировать споры на воркшопе и находить оптимальное распределение приоритетов.
+* **[Case] [Workshop Result Implementation](https://www.mdpi.com/2076-3387/15/9/332)**
+    * **О чем:** Как результаты воркшопа превращаются в работающую матрицу ответственности компании.
+    * **Senior-профит:** Показывает путь от теоретического обсуждения ролей до реальных изменений в операционной модели.
+
+---
+
+### Темы модуля (Расширенный)
+
+#### 10. Scaling Frameworks (Фреймворки масштабирования)
+* **[Doc] [Scaled Agile Framework (SAFe) Official Site](https://scaledagileframework.com/)**
+    * **Senior-профит:** Базовый стандарт для управления на уровне портфеля и программ в крупных корпорациях.
+* **[Analysis] [The Spotify Model is a Myth (Critical Review)](https://www.jeremiahlee.com/posts/failed-squad-goals/)**
+    * **Senior-профит:** Критический взгляд на популярные подходы. Предостерегает Senior-а от слепого копирования чужой культуры без учета структуры своего бизнеса.
+* **[Case] [Agile Transformation at Nokia (LeSS)](https://less.works/case-studies/nokia-networks)**
+    * **Senior-профит:** Реальный опыт масштабных изменений в тех-гиганте. Учит предвидеть системное сопротивление и управлять им.
+
+#### 11. Organizational Political Risks (Политические риски)
+* **[Doc] [Managing Risk in Projects: The Human Factor (PMI)](https://www.pmi.org/pmbok-guide-standards/foundational/risk-management)**
+    * **Senior-профит:** Глобальный стандарт работы с неявными рисками и интересами стейкхолдеров.
+* **[Analysis] [Navigating Organizational Politics (HBR)](https://hbr.org/2017/04/how-to-navigate-office-politics-as-a-new-manager)**
+    * **Senior-профит:** Стратегический гайд по управлению влиянием и коалициями. Ключевой навык для защиты ресурсов проекта на уровне C-level.
+* **[Case] [McKinsey: The Peoples Side of Transformation](https://www.mckinsey.com/capabilities/transformation/our-insights/the-peoples-side-of-transformation)**
+    * **Senior-профит:** Исследование того, как политика и культура рушат проекты. Помогает Senior-у выстраивать стратегию вовлечения людей.
+
+#### 12. AI Strategy & Governance (Стратегия ИИ)
+* **[Doc] [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)**
+    * **Senior-профит:** Мировой стандарт безопасности ИИ. Основа для разработки корпоративной политики безопасного использования нейросетей.
+* **[Analysis] [Creating a Corporate AI Policy (Deloitte)](https://www2.deloitte.com/us/en/pages/consulting/articles/ai-governance-strategy.html)**
+    * **Senior-профит:** Пошаговое руководство по созданию внутренних регламентов, обеспечивающих Data Privacy и этику.
+* **[Case] [IBM: Enterprise AI Ethics in Practice](https://www.ibm.com/impact/ai-ethics)**
+    * **Senior-профит:** Пример того, как тех-гигант превратил абстрактную этику в конкретные инструменты контроля и аудита ИИ.
+
+---
+
+### Блок: Must have (Senior-bonus)
+
+#### Тема: Enterprise Scaling
+1. **[Doc] [SAFe Implementation Roadmap](https://scaledagileframework.com/implementation-roadmap/)** — Пошаговый план внедрения. Важен как "карта полета" для Senior PM при масштабной трансформации.
+2. **[Analysis] [LeSS vs SAFe: Scaling Comparison](https://www.infoq.com/articles/less-safe-comparison/)** — Аналитика для принятия обоснованного решения о выборе фреймворка масштабирования.
+3. **[Case] [Porsche Journey to Agile Scaling (SAFe Case)](https://scaledagile.com/customer-stories/porsche/)** — Демонстрация того, как масштабирование ускоряет Time-to-Market в сложном производстве.
+
+#### Тема: Political Risk Management
+1. **[Doc] [Stakeholder Engagement Standard (PMI)](https://www.pmi.org/learning/library/stakeholder-management-skills-senior-leaders-6272)** — Базовые принципы работы с высокоуровневыми заказчиками.
+2. **[Analysis] [Power and Influence in Organizations (HBR)](https://hbr.org/2017/04/how-to-navigate-office-politics-as-a-new-manager)** — Анализ источников власти. Помогает Senior-у эффективно лоббировать интересы департамента.
+3. **[Case] [Managing Transformation Resistance (McKinsey)](https://www.mckinsey.com/capabilities/transformation/our-insights/the-peoples-side-of-transformation)** — Практика преодоления скрытого саботажа при внедрении новых процессов.
+
+#### Тема: AI Policy Creation
+1. **[Doc] [IBM AI Ethics Framework (Standard)](https://www.ibm.com/impact/ai-ethics)** — Набор принципов, готовых для адаптации под внутреннюю политику любой компании.
+2. **[Analysis] [GenAI Data Privacy for Leaders](https://www2.deloitte.com/us/en/pages/consulting/articles/ai-governance-strategy.html)** — Глубокий разбор юридических и технических рисков использования открытых LLM.
+3. **[Case] [IBM: Enterprise AI Governance Study](https://www.ibm.com/impact/ai-ethics)** — Кейс того, как регламенты помогают безопасно масштабировать ИИ-решения на тысячи сотрудников.
